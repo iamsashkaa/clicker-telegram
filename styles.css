@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5168e9;
+}
+
+.container {
+    text-align: center;
+}
+
+#clickButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button-icon {
+    width: 400px; /* Ширина изображения */
+    height: 400px; /* Высота изображения */
+    border-radius: 50%; /* Делаем изображение круглым */
+    object-fit: cover; /* Обеспечивает правильное отображение изображения */
+}
